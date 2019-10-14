@@ -1,0 +1,44 @@
+{
+  "login_success": {
+    "username": "13800138006",
+    "password": "123456",
+    "verify_code": "8888",
+    "status": 1,
+    "msg": "登陆成功"
+  },
+  "login_wrong_username": {
+    "username": "1380013800#",
+    "password": "123456",
+    "verify_code": "8888",
+    "status": -1,
+    "msg": "账号不存在"
+  },
+  "login_wrong_password": {
+    "username": "13800138006",
+    "password": "123456789",
+    "verify_code": "8888",
+    "status": -2,
+    "msg": "密码错误"
+  },
+  "login_wrong_verify_code": {
+    "username": "13800138006",
+    "password": "123456",
+    "verify_code": "9999",
+    "status": 0,
+    "msg": "验证码错误"
+  },
+  "login_wrong_no_username": {
+    "username": "",
+    "password": "123456",
+    "verify_code": "8888",
+    "status": 0,
+    "msg": "请填写账号或密码"
+  },
+  "login_wrong_no_password": {
+    "username": "13800138006",
+    "password": "",
+    "verify_code": "8888",
+    "status": 0,
+    "msg": "请填写账号或密码"
+  }
+}
